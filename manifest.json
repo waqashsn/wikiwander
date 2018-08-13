@@ -1,0 +1,17 @@
+{
+  "name": "Wikiwander",
+  "author": "Waqas Hassan",
+  "version": "0.0.1",
+  "description": "Make Wikipedia articles more readable with Wikiwand",
+  "permissions": [
+    "tabs"
+  ], 
+  "browser_action": {
+    "default_icon": {
+      "25": "images/wikiwand25.jpg",
+      "48": "images/wikiwand48.jpg"
+    },
+    "default_title": "Wikiwander",
+    "default_popup": "popup.html"
+  }
+}

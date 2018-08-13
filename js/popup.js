@@ -1,0 +1,1 @@
+//Javascript code for the extension popup goes here
