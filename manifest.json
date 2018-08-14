@@ -8,8 +8,10 @@
   ], 
   "browser_action": {
     "default_icon": {
-      "25": "images/wikiwand25.jpg",
-      "48": "images/wikiwand48.jpg"
+      "20": "images/wikiwand20.png",
+      "25": "images/wikiwand25.png",
+      "40": "images/wikiwand40.png",
+      "48": "images/wikiwand48.png"
     },
     "default_title": "Wikiwander",
     "default_popup": "popup.html"
