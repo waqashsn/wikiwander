@@ -15,7 +15,10 @@ readBtn.onclick = function() {
       fullUrl != "https://en.wikipedia.org/wiki/Main_Page"
     ) {
       //do if page is Wikipedia article
-      alert("Yes, its a Wikipedia article.");
+      //extract Wikipedia article topic from url
+      articleTopic = fullUrl.substring(30);
+      alert(articleTopic);
+      
     } else {
       //do if page is NOT Wikipedia article
       alert("No. This page is not a Wikipedia article.");
