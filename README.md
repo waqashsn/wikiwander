@@ -25,6 +25,8 @@ A Microsoft Edge extension to read Wikipedia articles on the more readable Wikiw
 
 Whenever you are on a Wikipedia article page, click on the extension button next to address bar and click on **"Read Article"** button. You will be taken to Wikiwand page of same article which is more beautiful and readable.
 
+The Read Article button will be disabled(unclickable) if you are not on a Wikipedia article page.
+
 ## Disclaimer
 
 This is an unofficial extension and has no link with either Wikipedia or Wikiwand.
