@@ -2,7 +2,6 @@ var url = document.location.href;
 //check if current tab is not a Wikipedia article page
 if (url.indexOf("//en.wikipedia.org/wiki") === -1 || url == "https://en.wikipedia.org/wiki/Main_Page") {
   //update and send inactive icons
-  alert(url);
   browser.runtime.sendMessage({
     iconPath20: "/images/wikiwand_inactive20.png",
     iconPath40: "/images/wikiwand_inactive40.png",
