@@ -4,7 +4,7 @@ A Microsoft Edge extension to read Wikipedia articles on the more readable Wikiw
 
 [Wikiwand](https://www.wikiwand.com/) is a service that makes Wikipedia articles more beautiful and readable. Wikiwand extensions for Firefox, Chrome and Safari are officially available. This project aims to provide an unofficial alternative with the ultimate aim of feature parity. 
 
-# Installation
+## Installation
 > **Note:** Since this extension is from outside the Microsoft Store and you are sideloading it, you will need to enable "extension developer features" in Microsoft Edge. Follow below steps to enable this flag.
 
 ### Enable Extension Developer Features in MS Edge
