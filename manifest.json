@@ -2,10 +2,8 @@
   "name": "Wikiwander",
   "author": "Waqas Hassan",
   "version": "0.0.1",
-  "description": "Make Wikipedia articles more readable with Wikiwand",
-  "permissions": [
-    "tabs"
-  ], 
+  "description": "Make Wikipedia articles beautiful more readable with Wikiwand",
+  "permissions": ["tabs"],
   "browser_action": {
     "default_icon": {
       "20": "images/wikiwand20.png",
@@ -15,5 +13,16 @@
     },
     "default_title": "Wikiwander",
     "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": true
   }
 }
