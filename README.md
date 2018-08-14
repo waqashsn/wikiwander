@@ -12,7 +12,7 @@ A Microsoft Edge extension to read Wikipedia articles on the more readable Wikiw
  - Go to "about:flags" by typing it in Edge address bar
  - Check the "Enable extension developer features..." option
  - Restart your browser
- - 
+  
 ### Install Wikiwander extension
 
  - Clone or download the repo as zip (unzip after download)
