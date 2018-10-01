@@ -2,7 +2,7 @@
   "name": "Wikiwander",
   "author": "Waqas Hassan",
   "version": "0.0.1",
-  "description": "Make Wikipedia articles beautiful more readable with Wikiwand",
+  "description": "Make Wikipedia articles beautiful and more readable with Wikiwand",
   "permissions": ["tabs"],
   "browser_action": {
     "default_icon": {
